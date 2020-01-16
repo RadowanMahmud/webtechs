@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<title>Form</title>
+	</head>
+	<body  bgcolor="#fabdcd">
+		<h2>Welcome To our Trip</h2>
+		<h5>Fill the form below to join</h5>
+		
+		<form action="localhost/test.php" method="POST" >
+			First Name:<input type="text" name="fname" placeholder="Give First name" required/>
+			Last Name:<input type="text" name="lname"placeholder="Give Last name"/>
+			<br><br>
+			Age: <input type="number" name="age" placeholder="Age"/>
+			<br><br>
+			Email:<input type="email" name="email" placeholder="Give  Email"/>
+			<br><br>
+			Country:
+			<select name="country">
+					<option>Nepal</option>
+					<option>USA</option>
+					<option>Canada</option>
+					<option>India</option>
+					<option>Bangladesh</option>
+					<option>Australia</option>
+					<option>Uganda</option>
+					<option>Italy</option>
+			</select>
+			<br><br>
+			Are you experienced?
+			<Input type="Checkbox">
+			<br><br>
+			gender
+			<input type="radio" name="gender"/>male
+			<input type="radio" name="gender"/>female
+			<br><br>
+			Why Do you want to visit everest base camp?
+			<textarea>You can sterch if needed</textarea>
+			<br><br>
+			<input type="Submit">
+		</form>
+	</body>
+</html>
