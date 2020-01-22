@@ -7,10 +7,10 @@
 		<h5>Fill the form below to join</h5>
 		
 		<form action="localhost/test.php" method="POST" >
-			First Name:<input type="text" name="fname" placeholder="Give First name" required/>
-			Last Name:<input type="text" name="lname"placeholder="Give Last name"/>
+			First Name:<input type="text" name="fname" placeholder="Give First name" autofocus required/>
+			Last Name:<input type="text" name="lname" placeholder="Give Last name" />
 			<br><br>
-			Age: <input type="number" name="age" placeholder="Age"/>
+			Age: <input type="number" name="age" placeholder="Age" value="18" disabled />
 			<br><br>
 			Email:<input type="email" name="email" placeholder="Give  Email"/>
 			<br><br>
@@ -34,9 +34,28 @@
 			<input type="radio" name="gender"/>female
 			<br><br>
 			Why Do you want to visit everest base camp?
-			<textarea>You can sterch if needed</textarea>
+			<textarea rows="10" cols="40" wrap="off"></textarea>
+			<br><br>
+			<h4>Select date for traveling</h4>
+			<input type="date">
+			<br><br>
+			<input type="file">
+			<br>
+			<h4>Select tshirt color</h4>
+			<input type="color">
+			<br>
+			<h4>Your progress</h4>
+			<progress value="10" max="100"></progress>
+			<br><br>
+			<h4>Your Stamina report</h4>
+			<meter value="50" max="100"></meter>
 			<br><br>
 			<input type="Submit">
+			<input type="reset">
+			<input type="button" value="Cancel">
+			<button>
+				ok
+			</button>
 		</form>
 	</body>
 </html>
