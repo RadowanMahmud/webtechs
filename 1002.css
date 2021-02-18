@@ -1,0 +1,23 @@
+body{
+	background-image: url('2.jpg');
+    	background-size: cover;
+    	
+    	font-size: 018px;
+    	font-family:Sans-Serif;
+}
+hr{
+    border-color: black;
+}
+.elevate{
+	  box-shadow: 0 18px 32px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	  margin-bottom: 25px;
+	  border: 1px solid #ddd;
+}
+.heading{
+	font-family: 'Times New Roman';
+	color: rgb(106, 90, 205);
+	font-size: 24px;
+}
+thead.edu{
+	background: rgba(255, 99, 71, 0.2);
+}
